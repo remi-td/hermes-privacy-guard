@@ -1,0 +1,11 @@
+name: hermes-privacy-guard
+version: 1.0.0
+manifest_version: 2
+api_version: 1
+description: "Fail-closed, block-only privacy guard for delegate_task handoffs."
+author: Hermes operators
+license: MIT
+homepage: https://github.com/remi-td/hermes-privacy-guard
+provides_hooks:
+  - pre_tool_call
+tags: [privacy, delegation, fail-closed]
